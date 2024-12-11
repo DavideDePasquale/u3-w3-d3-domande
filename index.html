@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domande u3-w3-d3</title>
+  </head>
+  <body>
+    <h1>Domande TypeScript</h1>
+    <ol>
+      RISPOSTE
+    </ol>
+    <li>
+      <strong>TypeScript</strong> è un linguaggio scritto e costruito in
+      JavaScript ma, con TS, si aggiungono delle funzionabilità che JS non ha.
+      Scriveremmo il codice in file .TS, dove avremo controlli sul codice e, se
+      il tutto non riscontrerà dei problemi, verrà tradotto in un file .JS .
+      Come detto, la funzionabilità principale di TS è quella di capire se ci
+      sono errori. TS è utilizzabile anche in React e si installa a livello
+      globale con "npm i -g typescript". A differenza di JS, typescript è un
+      linguaggio statico ; Javascript essendo dinamico, accetta che il dato
+      abbia un qualsiasi tipo di valore (booleano,stringa,numero ecc..); invece
+      TS, essendo statico, risulta errore se alla variabile dovessimo dare un
+      valore diverso da quello che abbiamo dato.
+    </li>
+    <li>
+      <strong>Il compilatore TS</strong> è necessario perchè noi programmeremo e
+      lavoreremo il file .TS . Typescript valuterà si ci sono errori e, in caso
+      non ce ne siano, il tutto verrà trasferito nel file .JS che verrà
+      collegato all'index.html .
+    </li>
+    <li>
+      <strong>La Type Inference</strong> è quando TS capisce il tipo di dato
+      della variabile in base al valore associato in maniera diretta. es. let
+      ciao = 5.. questo è un esempio di Type Inference. Non si può, in questo
+      caso, dare un tipo diverso di valore da numero a quella variabile. TIPI JS
+      : INFERENCE - let ciao = 5 ASSIGNMENT - let ciao : number
+    </li>
+    <li>
+      <strong>Any</strong> è un tipo denominato come "generico". Accetta
+      qualsiasi tipo di valore alla variabile (booleano,number,string...) Nelle
+      Tuple, se mettessimo "any[]" e ci diamo un numero indefinito di valori, il
+      tutto non risconterà nessun errore. "Any" è preferibile utilizzarlo in
+      array che accettano qualsiasi valore.
+    </li>
+    <li>
+      Il tipo <strong>"Union"</strong> si riferisce all'unione di più tipi.
+      Possiamo dare delle "alternative" al tipo di dato ricevuto ed è
+      caratterizzato da "|" che indice "or". es. let ciao: string | number = [].
+      Ciò significa che la variabile "ciao" può avere come valore o un numero o
+      una stringa.
+    </li>
+    <li>
+      <strong>Le Interfacce </strong>sono essenzialmente un blocco di codice e
+      vengono utilizzate per integrare le classi.(non esistono in JS). Si creano
+      con la key "interface". Si implementano a delle classi con la key
+      "implements"+ nome interfaccia.
+    </li>
+    <li>
+      <strong>Generics</strong> è uno strumento che ci permette di creare dei
+      componenti riutilizzabili. Si creano con " <> " vicino al nome della
+      funzione. Dopodichè bisogna specificare il "tipo" di dato nell'array che
+      verrà inserito a sua volta nella funzione.
+    </li>
+  </body>
+</html>
